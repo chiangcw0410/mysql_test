@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/b177045005ed435ead4f590a9ba0b45e/artifacts
+deleted_time: 1681720713352
+end_time: 1681720321097
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b177045005ed435ead4f590a9ba0b45e
+run_name: grandiose-cat-756
+run_uuid: b177045005ed435ead4f590a9ba0b45e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720321078
+status: 4
+tags: []
+user_id: chiangcw

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/86876de62be54b01907c7054e13d4d95/artifacts
+deleted_time: 1681720713360
+end_time: 1681720290438
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 86876de62be54b01907c7054e13d4d95
+run_name: mercurial-shad-728
+run_uuid: 86876de62be54b01907c7054e13d4d95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720288502
+status: 3
+tags: []
+user_id: chiangcw

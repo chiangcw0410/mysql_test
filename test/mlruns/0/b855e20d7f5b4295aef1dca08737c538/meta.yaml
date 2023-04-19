@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/b855e20d7f5b4295aef1dca08737c538/artifacts
+deleted_time: 1681720713373
+end_time: 1681713706263
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b855e20d7f5b4295aef1dca08737c538
+run_name: indecisive-yak-630
+run_uuid: b855e20d7f5b4295aef1dca08737c538
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681713704093
+status: 3
+tags: []
+user_id: chiangcw

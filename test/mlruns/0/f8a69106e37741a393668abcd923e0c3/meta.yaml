@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/f8a69106e37741a393668abcd923e0c3/artifacts
+deleted_time: 1681720713359
+end_time: 1681720304037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f8a69106e37741a393668abcd923e0c3
+run_name: peaceful-turtle-886
+run_uuid: f8a69106e37741a393668abcd923e0c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720304022
+status: 4
+tags: []
+user_id: chiangcw

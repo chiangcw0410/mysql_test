@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/19bb0717b78b4c3c8bd6eac4b644b1e8/artifacts
+deleted_time: 1681783400654
+end_time: 1681722790573
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 19bb0717b78b4c3c8bd6eac4b644b1e8
+run_name: adorable-colt-385
+run_uuid: 19bb0717b78b4c3c8bd6eac4b644b1e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681722788630
+status: 3
+tags: []
+user_id: chiangcw

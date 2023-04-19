@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/be0c7589ede146d080fc3851bf285ab6/artifacts
+deleted_time: 1681720713366
+end_time: 1681718952955
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: be0c7589ede146d080fc3851bf285ab6
+run_name: suave-snake-995
+run_uuid: be0c7589ede146d080fc3851bf285ab6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681718950976
+status: 3
+tags: []
+user_id: chiangcw

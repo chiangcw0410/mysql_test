@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/ccd71db010834166a2c5fbf427cd7729/artifacts
+deleted_time: 1681783400671
+end_time: 1681720862212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ccd71db010834166a2c5fbf427cd7729
+run_name: traveling-hound-270
+run_uuid: ccd71db010834166a2c5fbf427cd7729
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720862197
+status: 4
+tags: []
+user_id: chiangcw

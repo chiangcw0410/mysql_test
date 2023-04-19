@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/3018548a6efe44d7b7627e24f3b091a3/artifacts
+deleted_time: 1681720713383
+end_time: 1681713696518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 3018548a6efe44d7b7627e24f3b091a3
+run_name: selective-gull-904
+run_uuid: 3018548a6efe44d7b7627e24f3b091a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681713694577
+status: 3
+tags: []
+user_id: chiangcw

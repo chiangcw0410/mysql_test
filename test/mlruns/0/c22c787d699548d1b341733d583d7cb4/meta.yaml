@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/c22c787d699548d1b341733d583d7cb4/artifacts
+deleted_time: 1681720713383
+end_time: 1681713694568
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c22c787d699548d1b341733d583d7cb4
+run_name: dazzling-mole-739
+run_uuid: c22c787d699548d1b341733d583d7cb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681713692607
+status: 3
+tags: []
+user_id: chiangcw

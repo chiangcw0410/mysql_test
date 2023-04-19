@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/ff2847736f244e6c99bd34494ef40b71/artifacts
+deleted_time: 1681720713366
+end_time: 1681720272239
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ff2847736f244e6c99bd34494ef40b71
+run_name: nimble-vole-506
+run_uuid: ff2847736f244e6c99bd34494ef40b71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720270311
+status: 3
+tags: []
+user_id: chiangcw

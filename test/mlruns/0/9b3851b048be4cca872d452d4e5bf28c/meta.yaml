@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/9b3851b048be4cca872d452d4e5bf28c/artifacts
+deleted_time: 1681720713379
+end_time: 1681713704088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9b3851b048be4cca872d452d4e5bf28c
+run_name: rebellious-elk-792
+run_uuid: 9b3851b048be4cca872d452d4e5bf28c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681713702213
+status: 3
+tags: []
+user_id: chiangcw

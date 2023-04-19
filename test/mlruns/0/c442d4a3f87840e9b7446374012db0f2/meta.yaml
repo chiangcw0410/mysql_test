@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/c442d4a3f87840e9b7446374012db0f2/artifacts
+deleted_time: 1681720713383
+end_time: 1681713692590
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c442d4a3f87840e9b7446374012db0f2
+run_name: upbeat-grouse-147
+run_uuid: c442d4a3f87840e9b7446374012db0f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681713689729
+status: 3
+tags: []
+user_id: chiangcw

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/30bdecf7e2de4b9e93b1fc6076ac1693/artifacts
+deleted_time: 1681783400653
+end_time: 1681780145171
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 30bdecf7e2de4b9e93b1fc6076ac1693
+run_name: dapper-bird-316
+run_uuid: 30bdecf7e2de4b9e93b1fc6076ac1693
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681780145121
+status: 4
+tags: []
+user_id: chiangcw

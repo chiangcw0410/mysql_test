@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/24b36f0533ab4f578efb61fed6914f4d/artifacts
+deleted_time: 1681720713359
+end_time: 1681720296311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 24b36f0533ab4f578efb61fed6914f4d
+run_name: magnificent-goat-813
+run_uuid: 24b36f0533ab4f578efb61fed6914f4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720294445
+status: 3
+tags: []
+user_id: chiangcw

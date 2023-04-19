@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/595064fc06234726b80a7ae9f51f46cb/artifacts
+deleted_time: 1681783400671
+end_time: 1681720872832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 595064fc06234726b80a7ae9f51f46cb
+run_name: unique-pig-71
+run_uuid: 595064fc06234726b80a7ae9f51f46cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720871019
+status: 3
+tags: []
+user_id: chiangcw

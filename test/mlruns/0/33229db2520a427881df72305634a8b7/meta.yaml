@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/33229db2520a427881df72305634a8b7/artifacts
+deleted_time: 1681720713380
+end_time: 1681713698439
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 33229db2520a427881df72305634a8b7
+run_name: wise-swan-606
+run_uuid: 33229db2520a427881df72305634a8b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681713696538
+status: 3
+tags: []
+user_id: chiangcw

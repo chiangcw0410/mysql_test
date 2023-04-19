@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/2ab94564f44b440d9117c2b3a44e5e89/artifacts
+deleted_time: 1681720713365
+end_time: 1681720282699
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2ab94564f44b440d9117c2b3a44e5e89
+run_name: crawling-ox-854
+run_uuid: 2ab94564f44b440d9117c2b3a44e5e89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720280730
+status: 3
+tags: []
+user_id: chiangcw

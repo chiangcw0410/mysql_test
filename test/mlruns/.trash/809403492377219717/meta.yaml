@@ -1,0 +1,7 @@
+artifact_location: file:///C:/Users/chiangcw/PythonProject/test/mlruns/809403492377219717
+creation_time: 1681722970130
+experiment_id: '809403492377219717'
+last_update_time: 1681789207979
+lifecycle_stage: active
+name: sklearn_train
+tags: {}

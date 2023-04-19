@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/84c4d5f81e8f4cc99ad3533dbb8ea24a/artifacts
+deleted_time: 1681783400657
+end_time: 1681722794320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 84c4d5f81e8f4cc99ad3533dbb8ea24a
+run_name: judicious-kit-378
+run_uuid: 84c4d5f81e8f4cc99ad3533dbb8ea24a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681722792486
+status: 3
+tags: []
+user_id: chiangcw

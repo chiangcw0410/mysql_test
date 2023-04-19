@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/045c7fbc71d7472bb2e400539b6ff027/artifacts
+deleted_time: 1681720713372
+end_time: 1681718941145
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 045c7fbc71d7472bb2e400539b6ff027
+run_name: traveling-turtle-619
+run_uuid: 045c7fbc71d7472bb2e400539b6ff027
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681718937583
+status: 3
+tags: []
+user_id: chiangcw

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/5cfeb4c27b3d4aefab4ad3e30945e659/artifacts
+deleted_time: 1681783400655
+end_time: 1681780151819
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 5cfeb4c27b3d4aefab4ad3e30945e659
+run_name: kindly-wren-876
+run_uuid: 5cfeb4c27b3d4aefab4ad3e30945e659
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681780147874
+status: 3
+tags: []
+user_id: chiangcw

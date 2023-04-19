@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/ca9b8f59a40d4d759fe17c96b6cb7286/artifacts
+deleted_time: 1681720713367
+end_time: 1681718949581
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ca9b8f59a40d4d759fe17c96b6cb7286
+run_name: masked-panda-251
+run_uuid: ca9b8f59a40d4d759fe17c96b6cb7286
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681718949545
+status: 4
+tags: []
+user_id: chiangcw

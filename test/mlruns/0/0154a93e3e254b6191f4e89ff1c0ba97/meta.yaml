@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/0154a93e3e254b6191f4e89ff1c0ba97/artifacts
+deleted_time: 1681720713373
+end_time: 1681718930942
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0154a93e3e254b6191f4e89ff1c0ba97
+run_name: languid-crane-168
+run_uuid: 0154a93e3e254b6191f4e89ff1c0ba97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681718930883
+status: 4
+tags: []
+user_id: chiangcw

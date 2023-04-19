@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/668527231993773640/8bf1754610cf405dac761e1adf6e314c/artifacts
+end_time: 1681787196309
+entry_point_name: ''
+experiment_id: '668527231993773640'
+lifecycle_stage: active
+run_id: 8bf1754610cf405dac761e1adf6e314c
+run_name: my-example
+run_uuid: 8bf1754610cf405dac761e1adf6e314c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681787196158
+status: 4
+tags: []
+user_id: chiangcw

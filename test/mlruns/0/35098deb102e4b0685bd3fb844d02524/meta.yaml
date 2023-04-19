@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/chiangcw/PythonProject/test/mlruns/0/35098deb102e4b0685bd3fb844d02524/artifacts
+deleted_time: 1681783400671
+end_time: 1681720870557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 35098deb102e4b0685bd3fb844d02524
+run_name: worried-mare-818
+run_uuid: 35098deb102e4b0685bd3fb844d02524
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681720868665
+status: 3
+tags: []
+user_id: chiangcw
