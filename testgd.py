@@ -1,66 +1,88 @@
-from __future__ import print_function
+from pydrive2.auth import GoogleAuth
+import os
+from pydrive2.drive import GoogleDrive
+import csv
+import json
 import pandas as pd
-import streamlit as st
 
-import google.auth
-from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
+gauth = GoogleAuth()
+gauth.LocalWebserverAuth() # Creates local webserver and auto handles authentication.
 
-GOOGLE_APPLICATION_CREDENTIALS = './credentials.json'
+drive = GoogleDrive(gauth)
 
-def search_file():
-    """Search file in drive location
-
-    Load pre-authorized user credentials from the environment.
-    TODO(developer) - See https://developers.google.com/identity
-    for guides on implementing OAuth2 for the application.
-    """
-    creds, _ = google.auth.default()
-
+#file1 = drive.CreateFile({'title': 'winequality-red.csv'})  # Create GoogleDriveFile instance with title 'Hello.txt'.
+#file1.SetContentString('Hello World!') # Set content of the file from given string.
+#file1.Upload()
+test_list=[]
+with open('winequality-red.csv', 'r') as f:
+        rows = csv.reader(f, delimiter=',')
+        for row in rows:
+          test_list.append(row)
+file1 = drive.CreateFile({'title': 'test.csv', 'mimeType':'application/csv'})
+for i in  test_list:
+   file1.SetContentString(i)
+   file1.Upload()
+"""
+file4 = drive.CreateFile({'title':'appdata.json', 'mimeType':'application/json'})
+file4.SetContentString('{"firstname": "John", "lastname": "Smith"}')
+file4.Upload() # Upload file.
+file4.SetContentString('{"firstname": "Claudio", "lastname": "Afshar"}')
+file4.Upload() # Update content of the file.
+"""
+"""
+file5 = drive.CreateFile({'title':'appdata.csv', 'mimeType':'application/csv'})
+file5.SetContentString('No, Name, Score')
+file5.Upload() # Upload file.
+file5.SetContentString('1, Tom, 87.3')
+file5.Upload() # Update content of the file.
+"""
+print("=================================")
+#列出文件
+# Auto-iterate through all files that matches this query
+select=''
+file_list = drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
+for file1 in file_list:
+  print('title: %s, id: %s' % (file1['title'], file1['id']))
+  if 'csv' in file1['title'] :
+    file1.GetContentFile(file1['title'])
+    file2 = drive.CreateFile({'id': file1['id']})
     try:
-        # create drive api client
-        service = build('drive', 'v3', credentials=creds)
-        files = []
-        page_token = None
-        while True:
-            # pylint: disable=maybe-no-member
-            response = service.files().list(q="mimeType != 'application/vnd.google-apps.folder'",
-                                            spaces='drive',
-                                            fields='nextPageToken, '
-                                                   'files(id, name)',
-                                            pageToken=page_token).execute()
-            for file in response.get('files', []):
-                # Process change
-                st.write(F'Found file: {file.get("name")}, {file.get("id")}')
-            files.extend(response.get('files', []))
-            page_token = response.get('nextPageToken', None)
-            if page_token is None:
-                break
+      file2.GetContentFile(file1['title'])
+      with open(file1['title'], 'r') as f:
+        rows = csv.reader(f, delimiter=',')
+        for row in rows:
+          print(row)
+      
+    except Exception as e:
+      print(e, type(e))
+  elif 'json' in file1['title'] :
+    file1.GetContentFile(file1['title'])
+    file2 = drive.CreateFile({'id': file1['id']})
+    try:
+      file2.GetContentFile(file1['title'])
+      with open(file1['title']) as f:
+           data = json.load(f)
+           print(data.keys())
+           print(data.values())
+      
+    except Exception as e:
+      print(e, type(e))
+  elif 'txt' in file1['title'] :
+    content = file1.GetContentString(file1['title'])
+    print(content)
 
-    except HttpError as error:
-        st.write(F'An error occurred: {error}')
-        files = None
+print("=================================")
+#創建文件夾
+def create_folder(parent_folder_id, subfolder_name):
+  newFolder = drive.CreateFile({'title': subfolder_name, "parents": [{"kind": "drive#fileLink", "id": \
+  parent_folder_id}],"mimeType": "application/vnd.google-apps.folder"})
+  newFolder.Upload()
+  return newFolder
 
-    return files
-
-def connect_google_drive_api():
-        
-    # use Gdrive API to access Google Drive
-    from pydrive2.auth import GoogleAuth
-    from pydrive2.drive import GoogleDrive
-    
-    gauth = GoogleAuth()
-    gauth.LocalWebserverAuth() # client_secrets.json need to be in the same directory as the script    
-    
-    drive = GoogleDrive(gauth)
-    st.write('connect_google_drive_api!')
-    return drive
-
-connect_google_drive_api()
-#data = pd.read_csv('/content/drive/MyDrive/winequality-white.csv')
-
-#downloaded = connect_google_drive_api.drive.CreateFile({'id': data.get('id')})
-#print('Downloaded content "{}"'.format(downloaded.GetContentString()))
-#st.dataframe(data)
-
-search_file()
+#通過文件標題返回文件 ID 
+def get_id_of_title(title,parent_directory_id):
+  foldered_list=drive.ListFile({'q':  "'"+parent_directory_id+"' in parents and trashed=false"}).GetList()
+  for file in foldered_list:
+    if(file['title']==title):
+      return file['id']
+    return None

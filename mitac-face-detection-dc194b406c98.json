@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mitac-face-detection",
+  "private_key_id": "dc194b406c98fe69d98ff2f7c3cdd269807967a3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDClBmsbePx2M+J\noKR+B1pcLY0wsHYMYnOtIY+peOWSqHVc9iPv6rUpYz3IyuknVH81slr9uFJ+ycw5\nZfuoBqrVGa2scpqiGmS/O25GMFbAObujqpdZ/ZXt4DvuR6f0CEADJfZ9WRxD+tv7\nlvd0I62xlOUGvyijjnhzvldeZ5xBeq1bIrFLwU2Cf07DdWryj35yckpQKS8yC7ae\n6hpCM+ub5elHFWSv3GhAWaztymZSrR92M94cMRL5ICBcfPEr5y6vW1eaI6GmKs4L\n+KpOrElX2AOGw91Ch92smilM0Lh/++2VmtBJTOyO6dbsjh6523Do10Q11Kghp0Bk\n45cql37ZAgMBAAECggEABiz7CZ/IsdSX42wEM2L17gac8z1OjnDJOPkopjTcL1c9\nAKfV4AVx1GbQUbOIuDCiTLHt/hzWxXVGoiyZ92QT7Pu3clvPZw5x07lqhjw1PvPt\nADIw+gK4zP6meE3Vx1T62Efg9rQ9IO06KTG386A2jr1FbaG/cYakTRC4Ar+N1Egm\n+d36Z9O5Svotug6GvcFvXU1xk6aRWUEuwM3l3W+0+XaytL98Q6vjBX2ORIch4aWV\n9E3OESuU1rju8eIcQ4ZI7GLcDxg77vkqEkhptkxpzbx51H2qVCfshyBxeCmi89ny\nUUMQcDJieIx/Gw5NiMZp6nqZ0kdgk46pHT5LNHzqlwKBgQDkTSK1BS2eyLNS656H\n67KOgBmN9A7xE2og+QfWyRkOXiyspQuguxFRGRFDY49DqD1GPrvpq8HpfGNfXN4u\nkLjblsvE2k2qtFMYy9RoOdgdb8t/XnBpoRhkNOs3IsxWU1CbRt7/3BktQevg3u1i\nHh3egIWfglfWuvskjCOigkK5twKBgQDaL497JMcKtOdeYvfi6bnSB0HnL66N24I+\neF0PfIiIcMuLhTlv4NZB7XJf6ZSn1MuoNk+515GGTKcZUSPl4FMBtM1NCwhFgodl\nx0lCejCqaCIW+oIi0flfVa8H5BlKq0nNAMFaqqegPettsOdjEDn3Up7y5Lo0gk7g\nr9koIzjL7wKBgEYSUsvCuhzZNwkFXpQTSKuqL629MfTWY6WZKcnH0VPynb2jrqz3\nnboJep33adp3Qc9Uo/J1kD/suMdlRqB+NO7ZGtPhuSLi0/pxXVFcJ7PpQ0lloBUb\np9Ph1iwHFzaLvdra5skbMfMNH6vWYH/UBJDtW5X4uKMkor618J4JYxeDAoGAIwGs\ngLKG6PXbhW5VnWeos8UMUt54oDQO8pz3OWvesB2A2vLWI1gsqElDp5Xfjwn6XxPP\nuN6Yb7bOvKYjH1fdmZF7uxfBDP4DYVYXL/5Q3pZ0mcE5rgKIgz5JJff4At32qlir\nrTNiT7h/lIrkpSVOV5s++3OtWI1rwGsWaXU1QKsCgYAH8NnYG/OOn0ympNcOAp+1\nFiDswScexAyBVVRkZGlHDAKzX06WRM8Skfoa5XAUpf0bqubVD3AzPd5STu6nbFHg\nPkcARI29zpPFniGlz28yJ84tVLPMGP9jiZStotTmMbjSSiWFfyjUSokQMpkn7mJK\nIegX/5JC0oAp/qCQj6YoyA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pytog1@mitac-face-detection.iam.gserviceaccount.com",
+  "client_id": "112888901668444925066",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pytog1%40mitac-face-detection.iam.gserviceaccount.com"
+}
