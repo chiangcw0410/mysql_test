@@ -12,9 +12,7 @@ gauth.LocalWebserverAuth() # Creates local webserver and auto handles authentica
 
 drive = GoogleDrive(gauth)
 
-#file1 = drive.CreateFile({'title': 'winequality-red.csv'})  # Create GoogleDriveFile instance with title 'Hello.txt'.
-#file1.SetContentString('Hello World!') # Set content of the file from given string.
-#file1.Upload()
+
 """
 test_list=[]
 with open('winequality-red.csv','r', newline='') as f:
@@ -22,11 +20,8 @@ with open('winequality-red.csv','r', newline='') as f:
         for row in rows:
           test_list.append(row)
           
-#print(test_list)
 file1 = drive.CreateFile({'title':'test.csv', 'mimeType':'application/csv'})
-image_file = io.TextIOWrapper(test_list)
-file1.content = image_file
-#file1.SetContentString(str(test_list))
+file1.SetContentString(str(test_list))
 file1.Upload()
 """
 
@@ -50,7 +45,7 @@ select=''
 file_list = drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
 for file1 in file_list:
   print('title: %s, id: %s' % (file1['title'], file1['id']))
-  if 'csv' in file1['title'] :
+  if 'csv' in file1['title'] :# 讀取csv
     file1.GetContentFile(file1['title'])
     file2 = drive.CreateFile({'id': file1['id']})
     try:
@@ -62,7 +57,7 @@ for file1 in file_list:
       
     except Exception as e:
       print(e, type(e))
-  elif 'json' in file1['title'] :
+  elif 'json' in file1['title'] :# 讀取json
     file1.GetContentFile(file1['title'])
     file2 = drive.CreateFile({'id': file1['id']})
     try:
@@ -74,22 +69,8 @@ for file1 in file_list:
       
     except Exception as e:
       print(e, type(e))
-  elif 'txt' in file1['title'] :
+  elif 'txt' in file1['title'] :# 讀取txt
     content = file1.GetContentString(file1['title'])
     print(content)
 
 print("=================================")
-#創建文件夾
-def create_folder(parent_folder_id, subfolder_name):
-  newFolder = drive.CreateFile({'title': subfolder_name, "parents": [{"kind": "drive#fileLink", "id": \
-  parent_folder_id}],"mimeType": "application/vnd.google-apps.folder"})
-  newFolder.Upload()
-  return newFolder
-
-#通過文件標題返回文件 ID 
-def get_id_of_title(title,parent_directory_id):
-  foldered_list=drive.ListFile({'q':  "'"+parent_directory_id+"' in parents and trashed=false"}).GetList()
-  for file in foldered_list:
-    if(file['title']==title):
-      return file['id']
-    return None
